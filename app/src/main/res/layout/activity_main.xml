@@ -132,7 +132,7 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/te1"
+            android:id="@+id/tee1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -193,7 +193,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:onClick="go1"/>
 
         <Space
             android:layout_width="0dp"
@@ -205,7 +206,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:onClick="go2"/>
 
         <Space
             android:layout_width="0dp"
@@ -217,7 +219,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="Button"
+            android:onClick="go3"/>
 
         <Space
             android:layout_width="0dp"
@@ -246,7 +249,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="" />
+            app:srcCompat="@drawable/ic_launcher_background" />
 
         <Space
             android:layout_width="0dp"
@@ -258,7 +261,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="" />
+            app:srcCompat="@drawable/ic_launcher_background" />
 
         <Space
             android:layout_width="0dp"
@@ -270,7 +273,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="" />
+            app:srcCompat="@drawable/ic_launcher_background" />
 
         <Space
             android:layout_width="0dp"
@@ -299,7 +302,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="New" />
+            android:text="New"
+            android:onClick="clr"/>
 
         <Space
             android:layout_width="0dp"
