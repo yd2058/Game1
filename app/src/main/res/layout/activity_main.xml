@@ -303,7 +303,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="New"
-            android:onClick="clr"/>
+            android:onClick="clrng"/>
 
         <Space
             android:layout_width="0dp"
