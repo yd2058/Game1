@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             else{
                 imgv[0].setImageResource(R.drawable.ix);}
             bo[0] = true;
-            temp1 = (rnd.nextInt(90)+10);
+            temp1 += temp2;
             temp2 = (rnd.nextInt(90)+10);
             tv[2].setText(String.valueOf(temp1));
             tv[3].setText(String.valueOf(temp2));
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             else{
                 imgv[1].setImageResource(R.drawable.ix);}
             bo[1] = true;
-            temp1 = (rnd.nextInt(90)+10);
+            temp1 += temp2;
             temp2 = (rnd.nextInt(90)+10);
             tv[4].setText(String.valueOf(temp1));
             tv[5].setText(String.valueOf(temp2));
